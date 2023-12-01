@@ -3,7 +3,7 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-solana_bpf_upgradeable = ""
+solana_bpf_upgr = ""
 
 [registry]
 url = "https://api.apr.dev"
