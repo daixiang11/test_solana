@@ -30,7 +30,7 @@ print("ProjectId: ", addr)
 
 declare_id_regex = r"^(([\w]+::)*)declare_id!\(\"(\w*)\"\)"
 
-rsfile = "./programs/solana-nft-anchor/src/lib.rs"
+rsfile = "./programs/anchor-program-example/src/lib.rs"
 with open(rsfile, 'r') as file:
     libdata = file.read()
 
