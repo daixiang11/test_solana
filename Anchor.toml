@@ -1,8 +1,9 @@
 [features]
 seeds = false
 skip-lint = false
+
 [programs.localnet]
-solana_nft_anchor = ""
+solana_bpf_upgradeable = ""
 
 [registry]
 url = "https://api.apr.dev"
