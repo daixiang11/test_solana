@@ -17,9 +17,9 @@ result1 = subprocess.run(shell, capture_output=True, text=True)
 print(result1.stdout)
 
 # cp -f ./script/new-keypair.json ./target/deploy/solana_nft_anchor-keypair.json
-cpshell = ['cp', '-f', keyfile, './target/deploy/solana_nft_anchor-keypair.json']
+cpshell = ['cp', '-f', keyfile, './target/deploy/anchor-program-example-keypair.json']
 subprocess.run(cpshell, capture_output=True, text=True)
-print("create new keypair file: ", "./target/deploy/solana_nft_anchor-keypair.json")
+print("create new keypair file: ", "./target/deploy/anchor-program-example-keypair.json")
 
 # solana address -k ./script/new-keypair.json
 solanashell = ['solana', 'address', '-k', keyfile]
